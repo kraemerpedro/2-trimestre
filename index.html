@@ -9,7 +9,10 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"> <link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
 
    <link rel="stylesheet" href="./style.css">
   
@@ -66,10 +69,32 @@
 <p class="banner__texto>">encontre em nossa estante oque prescisa para se desenvolver</p>
 <input type="search" class="banner__pesquisa" placeholder="qual sera sua proxima leitura?">
 </body><section>
-  
 </section>
 
+<section class="carrocel">
+<h2 class="carrocel__titulo">novos lancamentos</h2>
 
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="./ApacheKafka.svg" alt="livro sobre ApacheKafka"></div>
+    <div class="swiper-slide"><img src="./Javascript.svg" alt="livro sobre Javascript"></div>
+    <div class="swiper-slide"><img src="Portugol.svg" alt="livro sobre Portugol"> </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 
 
