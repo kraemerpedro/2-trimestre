@@ -81,9 +81,28 @@ href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     <!-- Slides -->
     <div class="swiper-slide"><img src="./ApacheKafka.svg" alt="livro sobre ApacheKafka"></div>
     <div class="swiper-slide"><img src="./Javascript.svg" alt="livro sobre Javascript"></div>
-    <div class="swiper-slide"><img src="Portugol.svg" alt="livro sobre Portugol"> </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
+    <div class="swiper-slide"><img src="/Portugol.svg" alt="livro sobre Portugol"> </div>
+    <div class="swiper-slide"><img src="/acessibilodade.svg"alt=livroangular></div>
+    <div class="swiper-slide"><img src="/acessibilodade.svg"alt=livroangular></div>
+    <div class="swiper-slide"><img src="Angular.svg"alt=livro angular></div>
+    <div class="swiper-slide"><img src="/Arquitetura.svg"alt= livro arquitetura></div> 
+    <div class="swiper-slide"><img src="/Construct2.svg"alt=livro construt></div>
+    <div class="swiper-slide"><img src="./Gestão.svg" alt="livro gestao"></div>
+    <div class="swiper-slide"><img src="./Guia Front-end.svg" alt="livro front Front-end"></div>
+    <div class="swiper-slide"><img src="/Liderança.svg" alt="livro lideranca"> </div>
+    <div class="swiper-slide"><img src="/MEAN.svg"alt=livro mean></div>
+    <div class="swiper-slide"><img src="/Nodejs.svg"alt=livro nodes></div>
+    <div class="swiper-slide"><img src="/ReactNative.svg"alt=livroreactnativ></div>
+    <div class="swiper-slide"><img src="/Tuning.svg"alt= livrotuning></div> 
+    <div class="swiper-slide"><img src="/UX.svg"alt=livroux ></div>
+    
+
+
+
+
+    <!-- If we need pagination -->
+  <div class="swiper-pagination">
+  </div>
 
   <!-- If we need navigation buttons -->
   <div class="swiper-button-prev"></div>
@@ -95,6 +114,19 @@ href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+  speed: 400,
+  spaceBetween: 100,
+  slidesPerView: 3,
+  pagination{
+    el:'.swiper_pagination',
+    type:'bullets',
+  }
+  }
+
+);
+</script>
 
 
 
